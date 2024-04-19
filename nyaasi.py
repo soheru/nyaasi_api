@@ -49,4 +49,4 @@ def get_feeds():
     return jsonify(results)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=4000)
